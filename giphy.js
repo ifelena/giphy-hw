@@ -21,7 +21,7 @@ $(document).ready(function() {
     $(".fruit-button").removeClass("active");
     $(this).addClass("active");
     var type = $(this).attr("data-type");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type  + "&api_key=utW10k7t2r0hhyMA0hnOVDvHj679fR0u";
     $.ajax({
       url: queryURL,
       method: "GET"
